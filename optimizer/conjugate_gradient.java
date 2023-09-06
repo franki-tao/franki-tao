@@ -1,8 +1,5 @@
-package ht_Math.Solver.optimizer;
-
-import ht_Math.Function.ht_functionN;
-import ht_Math.Matrix.h_matrix;
-import ht_Math.Solver.domain.problem;
+import Function.ht_functionN;
+import domain.problem;
 
 import java.util.Arrays;
 
@@ -58,10 +55,6 @@ public class conjugate_gradient extends optimize{
                 return new double[]{200*(x[1]-x[0]*x[0])*(-2*x[0])+2*(x[0]-1), 200*(x[1]-x[0]*x[0])};
             }
 
-            @Override
-            public h_matrix calHess(double[] x) {
-                return null;
-            }
         };
         conjugate_gradient optimize = new conjugate_gradient(x0, prob, 1000, 1e-5);
         if(optimize.optim()) {
