@@ -1,6 +1,4 @@
-package ht_Math.Solver.domain;
-
-import ht_Math.Function.ht_functionN;
+import Function.ht_functionN;
 
 
 //问题接口
