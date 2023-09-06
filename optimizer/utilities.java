@@ -1,6 +1,4 @@
-package ht_Math.Solver.optimizer;
-
-import ht_Math.Solver.domain.problem;
+import domain.problem;
 
 public class utilities {
     public static double[] arrayCopy(double[] a) {
