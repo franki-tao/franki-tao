@@ -1,5 +1,3 @@
-package ht_Math.Function;
-
 public abstract class ht_functionN {
     public ht_functionN() {
     }
