@@ -1,6 +1,4 @@
-package ht_Math.Solver.optimizer;
-
-import ht_Math.Solver.domain.problem;
+import domain.problem;
 
 public abstract class optimize {
     public problem prob; //问题
