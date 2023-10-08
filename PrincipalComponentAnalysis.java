@@ -1,5 +1,3 @@
-package PCA;
-
 import org.apache.commons.math3.linear.*;
 import org.apache.commons.math3.stat.StatUtils;
 
@@ -8,7 +6,7 @@ import java.util.Comparator;
 
 //主成分分析法
 public class PrincipalComponentAnalysis {
-    /*
+    /**
     说明：PCA(Principal Component Analysis)，即主成分分析方法，是一种使用最广泛的数据降维算法。
     PCA的主要思想是将n维特征映射到k维上，这k维是全新的正交特征也被称为主成分，是在原有n维特征的基础上
     重新构造出来的k维特征。PCA的工作就是从原始的空间中顺序地找一组相互正交的坐标轴，新的坐标轴的选择
@@ -27,7 +25,6 @@ public class PrincipalComponentAnalysis {
     4) 对特征值从大到小排序，选择其中最大的k个。然后将其对应的k个特征向量分别作为行向量组成特征向量矩阵P
     5) 将数据转换到k个特征向量构建的新空间中，即Y=PX
 
-    参考： zhuanlan.zhihu.com/p/37777074
     实现：huang tao
      */
     public RealMatrix principleData;
